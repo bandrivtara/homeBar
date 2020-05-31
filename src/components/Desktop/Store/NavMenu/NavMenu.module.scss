@@ -1,0 +1,14 @@
+.navPanel {
+    height: 8vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.nav, .logo, .user, .cart, .profile {
+    display: flex;
+    a {
+        padding: 0 10px;
+    }
+}
